@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1152px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Montserrat", sans-serif;                                                
+}
+
+
+
+/* NAVIGATION START */
+nav{
+    box-shadow: 2px 2px 30px #4444444f;
+}
+nav .row{
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    padding: 30px ;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #18191f;
+padding: 0px 25px;
+
+}
+nav ul li a:hover{
+    color: #4CAF4F;
+}
+nav .sign_up a{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: #4caf4f;
+}
+nav .sign_up a:last-child{
+    padding: 10px 20px;
+    background: #4CAF4F;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: 1px solid #4CAF4F;
+}
+nav .sign_up a:first-child{
+    padding: 10px 20px;
+}
+nav .sign_up a:last-child:hover{
+    background: transparent;
+    color: #4CAF4F;
+    
+}
+nav .sign_up a:first-child:hover{
+    background: #4CAF4F;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+/* NAVIGATION END */
+
+/* BANNER */
+#banner{
+    background: #F5F7FA;
+}
+#banner .contains{
+    width: 60%;
+    padding: 161px 0px 161px 0px;
+}
+#banner .image{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0px 96px px;
+}
+#banner .image img{
+    width: 100%;
+}
+#banner .row{
+    justify-content: space-between;
+}
+#banner h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 119%;
+    color: #4d4d4d;
+}
+#banner h2 span{
+    color: #4CAF4F;
+}
+#banner p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #717171;
+padding: 16px 0px 32px;
+}
+#banner a{
+color: #FFFFFF;
+border-radius: 4px;
+padding: 14px 32px;
+width: 128px;
+height: 52px;
+background: #4CAF4F;
+display: inline-block;
+border: 1px solid #4CAF4F;
+}
+#banner a:hover{
+    background: transparent;
+    color: #4CAF4F;
+}
+/* BANNER END */
